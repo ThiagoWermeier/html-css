@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: whitesmoke;
+            margin: 0px;
+        }
+        header {
+            background-color: antiquewhite;
+            padding: 5px;
+            margin: 5px;
+        }
+        nav {
+            background-color: cadetblue;
+            padding: 5px;
+            margin: 5px;
+            box-shadow: 3px 3px 3px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: aquamarine;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: lightgoldenrodyellow;
+        }
+
+        footer {
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 3px;
+        }
+
+        div#bola {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Notícias</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>Esportes Política e Tecnologia</p>
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Notícia do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe atque odit quae officiis totam veritatis eveniet excepturi architecto a adipisci quia vero tempora reprehenderit, illum aperiam id dignissimos nihil. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nemo sapiente sunt minima, tempora quae laborum suscipit aliquid corporis, magni et ipsa sed quibusdam possimus ab eaque! Repellendus, consectetur nesciunt.</p>
+                <aside>
+                    <p>Artigo escrito por Thiago Wermeier</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Thiago Wermeier</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
