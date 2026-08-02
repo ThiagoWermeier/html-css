@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>População por estado</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        table {
+            width: 300px;
+            height: 300px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1,5em;
+            padding: 10px;
+            font-weight: bolder;
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        
+        td.numero {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela</h1>
+    <table>
+        <caption>População por Estado</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 300px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 393 441</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 223 547</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 870 907	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11 890 517</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 233 263</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9 562 007</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8 711 196</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">8 187 029</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="numero"><strong>158.422.544</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusamus incidunt harum aperiam libero numquam quisquam! Labore voluptatibus asperiores, laborum iure soluta alias earum sed maxime enim voluptatem debitis. Eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem illum eum accusamus incidunt unde, repellat quos voluptate nam. Sed suscipit illo, ipsam esse veniam impedit quam delectus corporis corrupti! Ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur perspiciatis nihil esse error ab eius perferendis alias aliquam illum dignissimos facilis, nemo laudantium quod nisi suscipit ducimus ut. Natus, error. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut mollitia incidunt sunt quidem sed unde fuga, amet dolor nulla nihil quo aperiam veritatis velit voluptas, officiis est! Corrupti, quasi quis!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusamus incidunt harum aperiam libero numquam quisquam! Labore voluptatibus asperiores, laborum iure soluta alias earum sed maxime enim voluptatem debitis. Eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem illum eum accusamus incidunt unde, repellat quos voluptate nam. Sed suscipit illo, ipsam esse veniam impedit quam delectus corporis corrupti! Ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur perspiciatis nihil esse error ab eius perferendis alias aliquam illum dignissimos facilis, nemo laudantium quod nisi suscipit ducimus ut. Natus, error. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut mollitia incidunt sunt quidem sed unde fuga, amet dolor nulla nihil quo aperiam veritatis velit voluptas, officiis est! Corrupti, quasi quis!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusamus incidunt harum aperiam libero numquam quisquam! Labore voluptatibus asperiores, laborum iure soluta alias earum sed maxime enim voluptatem debitis. Eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem illum eum accusamus incidunt unde, repellat quos voluptate nam. Sed suscipit illo, ipsam esse veniam impedit quam delectus corporis corrupti! Ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur perspiciatis nihil esse error ab eius perferendis alias aliquam illum dignissimos facilis, nemo laudantium quod nisi suscipit ducimus ut. Natus, error. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut mollitia incidunt sunt quidem sed unde fuga, amet dolor nulla nihil quo aperiam veritatis velit voluptas, officiis est! Corrupti, quasi quis!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusamus incidunt harum aperiam libero numquam quisquam! Labore voluptatibus asperiores, laborum iure soluta alias earum sed maxime enim voluptatem debitis. Eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem illum eum accusamus incidunt unde, repellat quos voluptate nam. Sed suscipit illo, ipsam esse veniam impedit quam delectus corporis corrupti! Ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur perspiciatis nihil esse error ab eius perferendis alias aliquam illum dignissimos facilis, nemo laudantium quod nisi suscipit ducimus ut. Natus, error. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut mollitia incidunt sunt quidem sed unde fuga, amet dolor nulla nihil quo aperiam veritatis velit voluptas, officiis est! Corrupti, quasi quis!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusamus incidunt harum aperiam libero numquam quisquam! Labore voluptatibus asperiores, laborum iure soluta alias earum sed maxime enim voluptatem debitis. Eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem illum eum accusamus incidunt unde, repellat quos voluptate nam. Sed suscipit illo, ipsam esse veniam impedit quam delectus corporis corrupti! Ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur perspiciatis nihil esse error ab eius perferendis alias aliquam illum dignissimos facilis, nemo laudantium quod nisi suscipit ducimus ut. Natus, error. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut mollitia incidunt sunt quidem sed unde fuga, amet dolor nulla nihil quo aperiam veritatis velit voluptas, officiis est! Corrupti, quasi quis!
+    </p>
+
+</body>
+</html>
